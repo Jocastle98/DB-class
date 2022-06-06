@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+
+
+</style>
+</head>
+<body>
+<div>
+<h1>쿵푸팬더 예매</h1>
+<img alt="" src="img/movie_image2.jpg"><br>
+<form action = 'movie_page.php'>
+<select >
+		<option value = "극장" selected>극장</option>
+		<option value = "롯데" selected>롯데</option>
+		<option value = "CGV" selected>CGV</option>
+		
+<input type='date' name = 'date'><br>
+
+
+	<fieldset>
+	<legend>시간선택</legend>
+	<input type="checkbox" name='time' value='08:30'>08:30
+	<input type="checkbox" name='time' value='11:00'>11:00
+	<input type="checkbox" name='time' value='14:20'>14:20
+	<input type="checkbox" name='time' value='17:25'>17:25
+	<input type="checkbox" name='time' value='20:10'>20:10
+	<input type="checkbox" name='time' value='23:05'>23:05
+	</fieldset>
+
+
+<label>요금</label><p><del>\9000</del>  <u>\5000</u>
+</p>
+
+
+
+<label>인원</label><input type='text' name='people'><br>
+
+<label>금액</label><input type='text' name='money'><br>
+
+<input type="radio" name ='option' >옵션
+
+	<fieldset>
+	<input type="checkbox" name = 'food' value = '팝콘'>팝콘
+	<input type="checkbox" name = 'food' value = '콜라'>콜라
+	</fieldset>
+	
+<input type = 'submit' value ='확인'>
+</form>
+
+<p></p>
+
+</div>
+
+
+</body>
+</html>
